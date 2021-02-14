@@ -12,7 +12,9 @@ The goal of this library is to generate a transcript of an audio file input.
 
 ```zsh
 brew install python@3.9 swig ffmpeg
-pip install pocketsphinx2 SpeechRecognition pydub 
+pip install pocketsphinx2 pydub
+python -m pip install https://github.com/Uberi/speech_recognition/archive/master.zip
+
 ```
 
 ### Install French language for PocketSphinx.
